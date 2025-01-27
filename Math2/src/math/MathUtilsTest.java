@@ -19,11 +19,11 @@ System.out.println("Teardown completed.");
 }
 @Test
 void testAdd() {
-assertEquals(5, calculate.add(2, 3), "Addition failed");
+assertEquals(6, calculate.add(3, 3), "Addition failed");
 }
 @Test
 void testSubtract() {
-assertEquals(1, calculate.subtract(3, 2), "Subtraction failed");
+assertEquals(2, calculate.subtract(4, 2), "Subtraction failed");
 }
 @Test
 void testMultiply() {
