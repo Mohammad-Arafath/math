@@ -23,7 +23,7 @@ assertEquals(6, calculate.add(3, 3), "Addition failed");
 }
 @Test
 void testSubtract() {
-assertEquals(2, calculate.subtract(4, 2), "Subtraction failed");
+assertEquals(3, calculate.subtract(6, 2), "Subtraction failed");
 }
 @Test
 void testMultiply() {
